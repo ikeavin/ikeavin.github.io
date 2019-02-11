@@ -1,3 +1,3 @@
 $("#animator").click(function() {
-    $("#mainHeading").css("color", "#9932CC");
+    $("#mainHeading").css("color", "#da70d6");
 });
