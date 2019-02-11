@@ -9,3 +9,8 @@ h1 {
   margin: 0px 25px 15px 0px;
   float: left;
 }
+.borderClass{
+  border-color: black;
+  border-width:3px;
+  border-style: solid;
+}
