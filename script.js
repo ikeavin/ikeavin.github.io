@@ -2,4 +2,5 @@ $("#animator").click(function() {
     $("#mainHeading").css("color", "#DA70D6");
     $("#mainHeading").animate({fontSize: "100px"}, 1500);
     $("#mainHeading").animate({fontSize: "initial"}, 1500);
+    $("#kev_image").animate({border: "5px"});
 });
