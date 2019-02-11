@@ -3,6 +3,7 @@ h3 {
 }
 h1 {
   text-align: center;
+  fontSize: 50px;
 }
 #kev_image {
   margin: 0px 25px 15px 0px;
