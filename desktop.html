@@ -2,22 +2,25 @@
 <html>
     <head>
         <title>Desktop Version</title>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>
-                
-                
                 if(screen.width <= 699) {
-                   window.location = "mobile.html"
+                    window.location = "mobile.html"
                 }
-                else {
-                   alert("This is not mobile");
-                }
-            
-                </script>
+    
+        </script>
     </head>
     <body>
         <h1>Desktop Version</h1>
         <p>This is the desktop version of my web page!</p>
+        <h3>WURFL Capabilities</h3>
+        <dl>
+            <dt>device_os</dt>
+            <dd>Determines the operating system of the device, such as being iOS, Android, Windows, Mac OSX, etc</dd>
+            <dt>device_os_version</dt>
+            <dd>Determines the version of the operating system being used on the device</dd>
+            <dt>is_bot</dt>
+            <dd>Determines if an internet bot is accessing the webpage</dd>
+        </dl>
 
     </body>
 </html>
