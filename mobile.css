@@ -2,17 +2,17 @@ body {
     font-size: 100%
 }
 h1 {
-    font-size: 3em;
+    font-size: 5em;
 }
 p {
-    font-size: 1em;
+    font-size: 2em;
 }
 h3 {
-    font-size: 2em; 
+    font-size: 3.5em; 
 }
 dt {
-    font-size: 1em;
+    font-size: 2em;
 }
 dd {
-    font-size: 1em; 
+    font-size: 2em; 
 }
