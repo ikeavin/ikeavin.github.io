@@ -9,6 +9,9 @@ const PRECACHE_URLS = [
   'index.html',
   './',       // Alias for index.html
   'styles.css',
+  'icon.png',
+  'backgrounds/lightblue.jpg',
+  'backgrounds/lightgold.jpg'
 ];
 
 // The install handler takes care of precaching the resources we always need.
