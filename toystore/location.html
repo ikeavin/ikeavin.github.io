@@ -11,6 +11,27 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title> Kevin's Toys - Locations</title>
+    <script type="text/javascript" >     
+
+        window.onload = getLocation;      
+
+        var geo = navigator.geolocation;   
+
+        function getLocation() {       
+            if(geo) {    
+                geo.getCurrentPosition( displayLocation );       
+            } else { 
+                alert( "Geolocation API is not supported");        
+            }     
+        }            
+
+        function displayLocation(position) {         
+            var latitude = position.coords.latitude;        
+            var longitude = position.coords.longitude;            
+            var p = document.getElementById('location');     
+            p.innerHTML = "You are at Latitude: " + latitude + ", Longitude: " + longitude;    
+        } 
+</script>
 </head>
 
 <body style="background-color: lavender;">
@@ -44,7 +65,7 @@
         </div>
 
         <div class="container mt-4">
-            <p>Come back here soon for features which will help you find your nearest store!</p>
+            <p id="location"> Latitude: Longitude:</p>
         </div>
     </main>
 
