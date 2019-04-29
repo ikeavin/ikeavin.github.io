@@ -1,0 +1,12 @@
+{
+  "name": "Kevin's PWA Info",
+  "short_name": "Kevin PWA",
+  "lang": "en-US",
+  "start_url": "https://ikeavin.github.io/HW4/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon.png"
+    }
+  ]
+}
